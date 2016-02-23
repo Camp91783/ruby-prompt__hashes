@@ -1,0 +1,31 @@
+What is a hash?
+A hash in a collection of different keys and their values
+
+What are some examples of information that would be Hashes as opposed to some other data type?
+an example could be like different breeds of dogs.  Bulldog, Boxer, lab etc...
+
+How are Hashes and Arrays similar? How are they different?
+They both store a collection of different objects but arrays use integers as its index but a hash lets you use any object type
+
+How do you retrieve a particular value from a Hash?
+student = {name = Peter, eye color = green}
+student =["eye color"]  should return green
+
+How do you add information to a Hash?
+you can add it similar to an array but have to use {}. first you name the hash then assign the value to the key
+
+How would you perform an operation on every element inside a Hash?
+need to come back to
+
+How would you change the value of a particular element in a Hash?
+To change it I would reference the initial entry and then set it to the new info.
+
+How do you delete an element from a Hash?
+You use the delete function.  referencing the student one adn eye color from earlier an example would be
+my.hash.delete "Pete"
+
+What happens if you try to retrieve an element from a Hash that does not exist in the Hash?
+you get a nil response because it simply does not exisit
+
+How do you determine how many elements are in a Hash?
+through the length function
